@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import axios from "axios";
 import CharacterList from './components/CharacterList';
+import { Container, Row } from "reactstrap";
 
 const App = () => {
   const [character, setCharacter] = useState([]);
@@ -23,7 +24,11 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
-      <CharacterList character={character}/>
+      <Container>
+            <Row>
+          <CharacterList character={character} />
+        </Row>
+        </Container>
     </div>
   );
 }

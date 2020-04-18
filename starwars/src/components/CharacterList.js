@@ -1,16 +1,16 @@
 import React from 'react';
 import Character from './Character';
-
+import { Row } from "reactstrap";
 function CharacterList(props) {
     return (
-        <div className="characterlist">
+        <Row>
             {props.character.map(c =>
                 <Character
                     c={c}
                     key={c.created}
                 />
-            )}
-        </div>
+                    )}
+</Row>
     )
 }
 

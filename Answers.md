@@ -13,4 +13,4 @@
       - Props allow us to pass data and functionality to child from parent state.
 
 - [x] What are side effects, and how do you sync effects in a React component to state or prop changes?
-        -
+        - Side effects in React are effects that happens outside of the scope of React, such as getting data from an API or using timers. In React we have to option to run blocks of code when a certain effect happens. We can do that using the useEffect hook. Its first argument is the a callback function specifying the code block we want to run and the second argument is the dependencies that we could sync to it.
