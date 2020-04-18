@@ -1,9 +1,16 @@
 # Answers
 
-1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [x] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+      - React is a library developed to make interacting with the DOM easier and more performant, by using the virtual DOM. React uses the virtual DOM and a copy to compare what has changed with the original and only updated the changed content to the DOM.
 
-1. Describe component state.
+- [x] What does it mean to _think_ in react?
+      - To think in “blocks” or “components” so see what you can reuse in other parts of your application.
 
-1. Describe props.
+- [x] Describe state.
+      - State is the current condition of a component.
 
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+- [x] Describe props.
+      - Props allow us to pass data and functionality to child from parent state.
+
+- [x] What are side effects, and how do you sync effects in a React component to state or prop changes?
+        -
